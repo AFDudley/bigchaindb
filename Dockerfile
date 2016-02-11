@@ -6,7 +6,7 @@ RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 RUN pip install --upgrade pip
-RUN pip install --no-cache-dir pytest pytest-cov
+RUN pip install --no-cache-dir pytest pytest-cov codecov
 
 COPY . /usr/src/app/
 
